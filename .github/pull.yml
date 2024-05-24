@@ -1,0 +1,23 @@
+version: "1"
+rules:
+  - base: summary
+    upstream: misode:summary
+    mergeMethod: hardreset
+  - base: registries
+    upstream: misode:registries
+    mergeMethod: hardreset
+  - base: data
+    upstream: misode:data
+    mergeMethod: hardreset
+  - base: data-json
+    upstream: misode:data-json
+    mergeMethod: hardreset
+  - base: assets
+    upstream: misode:assets
+    mergeMethod: hardreset
+  - base: assets-json
+    upstream: misode:assets-json
+    mergeMethod: hardreset
+  - base: atlas
+    upstream: misode:atlas
+    mergeMethod: hardreset
